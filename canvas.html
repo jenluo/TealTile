@@ -3,100 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>TealTile</title>
     <script src="https://kit.fontawesome.com/78481bc736.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/capp.css">
+    <link rel="stylesheet" href="./style/app.css">
     <script src="https://kit.fontawesome.com/78481bc736.js" crossorigin="anonymous"></script>
-
 </head>
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    
-    <a href="#" class="navbar-brand"> <i class="fas fa-home mr-2"></i>HOME</a>
-    <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div id="my-nav" class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <button class="btn btn-primary mr-3"><i class="fas fa-save mr-2"></i>Save</button>            
-            </li>
-            <li class="nav-item active">
-                <button class="btn btn-primary"><i class="fas fa-undo-alt mr-2"></i>Undo
-                </button>            
-            </li>
-
-        </ul>
-        <span class="title">Untiled</span> 
-
-        <button class="btn btn-primary justify-content-end ml-auto"> <i class="fas fa-user-friends mr-2"></i>Discussion</button>            
-
-    </div>
-</nav>
-<body>
-    <div class="row p-1">
-        <div class="column pl-1">
-            <div class="btn-group-vertical ml-3 mr-2 mt-5 pl-1 pr-2 toolbarBorder">
-            <button id="imageButton1" class="btn btn-light image_button mb-1"></button>
-            <button id="imageButton2" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton3" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton4" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton5" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton6" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton7" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton8" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton9" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton10" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton11" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton12" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton13" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton14" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton15" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton16" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton17" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton18" class="btn btn-light image_button my-1"></button>
-            <button id="imageButton19" class="btn btn-light image_button my-1"></button>
-        </div>
-    </div>
-    <div id="gridImage" class="grid mt-5">
-    </div>
-    <div class="mt-5 layBar ml-1">
-        <div class="layBar">
-            <div class="layBarTitle border border-dark m-1">
-                LayBar
+<body style="background-image: none; background-color: white;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a href="index.html"><img src="images/logo.png" class="logo"></a>
+            <a class="navbar-brand" href="#"></a>
+            <div class="collapse navbar-collapse ml-auto">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="marketplace.html">MarketPlace</a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav ml-auto">
+                  <li class="nav-item button login-btn">
+                    <a class="nav-link" href="index.html">Sign out</a>
+                  </li>
+                </ul>
             </div>
-            <div class="mx-2">
-                <span>
-                    <i class="fas fa-camera mr-2 text-primary"></i>
-                    Image Layer1
-                </span>
-                <span class="float-right"> 
-                        <i class="far fa-eye btn text-primary btn-sm"></i>
-                        <i class="fas fa-trash btn text-primary btn-sm"></i>
-                </span>            
-</div>
-            
-
-
         </div>
-        <div class="tileBar mt-2 p-1">
-            <div class="layBarTitle border border-dark m-1">
-                TileBar
+    </nav>
+    <div id="canvas-body">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="my-nav" class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <button class="btn btn-primary mr-3"><i class="fas fa-save mr-2"></i>Save</button>            
+                    </li>
+                    <li class="nav-item active">
+                        <button class="btn btn-primary"><i class="fas fa-undo-alt mr-2"></i>Undo</button>            
+                    </li>
+                </ul>
+                <span class="title mr-5">Untitled Project</span> 
+                <button class="btn btn-primary justify-content-end ml-auto"> <i class="fas fa-user-friends mr-2"></i>Discussion</button>            
             </div>
-            
-        </div>
-
-    </div>   
-
-      
+        </nav>
+        <div id="canvas-toolbar" class="row p-1">
+            <div class="column pl-1">
+                <div class="btn-group-vertical pr-2 toolbarBorder">
+                    <button id="imageButton1" class="btn canvas-icon"></button>
+                    <button id="imageButton2" class="btn canvas-icon"></button>
+                    <button id="imageButton3" class="btn canvas-icon"></button>
+                    <button id="imageButton4" class="btn canvas-icon"></button>
+                    <button id="imageButton5" class="btn canvas-icon"></button>
+                    <button id="imageButton6" class="btn canvas-icon"></button>
+                    <button id="imageButton7" class="btn canvas-icon"></button>
+                    <button id="imageButton8" class="btn canvas-icon"></button>
+                    <button id="imageButton9" class="btn canvas-icon"></button>
+                    <button id="imageButton10" class="btn canvas-icon"></button>
+                    <button id="imageButton11" class="btn canvas-icon"></button>
+                    <button id="imageButton12" class="btn canvas-icon"></button>
+                    <button id="imageButton13" class="btn canvas-icon"></button>
+                    <button id="imageButton14" class="btn canvas-icon"></button>
+                    <button id="imageButton15" class="btn canvas-icon"></button>
+                </div>
+            </div>
+            <div id="gridImage" class="grid mt-5"></div>
+            <ul class="flex-column list-group">
+                <div class="layer-bar">
+                    <div>
+                        <div class="canvas-title">Layers</div>
+                        <div class="mx-2">
+                            <span>
+                                <i class="fas fa-image mr-2 text-primary"></i>Image Layer 1
+                            </span>
+                            <span class="float-right"> 
+                                <i class="far fa-eye btn text-primary btn-sm"></i>
+                                <i class="fas fa-trash btn text-primary btn-sm"></i>
+                            </span>
+                        </div>  
+                    </div>          
+                </div>
+                <div class="layer-bar">
+                    <div class="canvas-title">TileBar</div>    
+                </div>
+            </ul>
+        </div> 
     </div>
-    <!-- <div></div> -->
-    
-
-
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>

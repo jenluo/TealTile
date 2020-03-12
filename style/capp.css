@@ -1,77 +1,72 @@
-button {
-    display: inline-block;
-    background-color: white;
-    border-color: white;
+#canvas-body {
+    margin-left: 2%;
+    height: 100%;
+    width: 96%;
+    background-color: rgb(246, 246, 246);
 }
 
-.btn-group-vertical{
-    width: 50px;
+#canvas-toolbar {
+    margin: 0;
 }
-body { 
-    padding-top: 10px;
-    background: grey;
- }
-.column{
-    background: white;
+
+.canvas-icon {
+    height: 32px !important;
+    width: 38px !important;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: white !important;
 }
-.image_button{
-    background-size: 35px 35px;
-    height: 35px;  
-    width: 35px;
+
+.canvas-icon:hover {
+    background-color: #b621fe !important;
 }
-ul {
-    list-style-type:none;
-    padding: 0;
+
+.grid {
+    margin: 0 !important;
+    height: 90vh;
+    width: 70%;
+    background-size: 100%;
 }
-.grid{
-    height: 51rem;
-    width: 1100px;
-}
-.toolbarBorder{
-    border: 2px solid grey;
-}
-.layBar{
+
+.layer-bar {
     background-color: white;
-    width: 23rem;
-    height: 25rem;
+    margin-left: 2%;
+    width: 18rem;
+    height: 45vh;
 }
-.tileBar{
+
+.canvas-title {
+    background-color: #1fd1f9;
     text-align: center;
-    background-color: white;
-    width: 23rem;
-    height: 25.5rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
-.title{
-    margin-left: -20rem;
-    font-size: x-large;
-    color: gray;
+
+.fa-eye {
+    color: white !important;
 }
-.layBarTitle{
-    text-align: center;
-    align-self: center;
-    font-size: large;
-    color: gray;
+
+.fa-trash {
+    color: white !important;
 }
 
 
-#imageButton1 {background-image: url( '../images/icon1.png' );}
-#imageButton2 {background-image: url( '../images/icon2.png' );}
-#imageButton3 {background-image: url( '../images/icon3.png' );}
-#imageButton4 {background-image: url( '../images/icon4.png' );}
-#imageButton5 {background-image: url( '../images/icon5.png' );}
-#imageButton6 {background-image: url( '../images/icon6.png' );}
-#imageButton7 {background-image: url( '../images/icon7.png' );}
-#imageButton8 {background-image: url( '../images/icon8.png' );}
-#imageButton9 {background-image: url( '../images/icon9.png' );}
-#imageButton10 {background-image: url( '../images/icon10.png' );}
-#imageButton11 {background-image: url( '../images/icon11.png' );}
-#imageButton12 {background-image: url( '../images/icon12.png' );}
-#imageButton13 {background-image: url( '../images/icon13.png' );}
-#imageButton14 {background-image: url( '../images/icon14.png' );}
-#imageButton15 {background-image: url( '../images/icon15.png' );}
-#imageButton16 {background-image: url( '../images/icon16.png' );}
-#imageButton17 {background-image: url( '../images/icon17.png' );}
-#imageButton18 {background-image: url( '../images/icon18.png' );}
-#imageButton19 {background-image: url( '../images/icon19.png' );}
+#imageButton1 {background-image: url("../images/icon1.png");}
+#imageButton2 {background-image: url("../images/icon2.png");}
+#imageButton3 {background-image: url("../images/icon3.png");}
+#imageButton4 {background-image: url("../images/icon4.png");}
+#imageButton5 {background-image: url("../images/icon5.png");}
+#imageButton6 {background-image: url("../images/icon6.png");}
+#imageButton7 {background-image: url("../images/icon7.png");}
+#imageButton8 {background-image: url("../images/icon8.png");}
+#imageButton9 {background-image: url("../images/icon9.png");}
+#imageButton10 {background-image: url("../images/icon10.png");}
+#imageButton11 {background-image: url("../images/icon11.png");}
+#imageButton12 {background-image: url("../images/icon12.png");}
+#imageButton13 {background-image: url("../images/icon13.png");}
+#imageButton14 {background-image: url("../images/icon14.png");}
+#imageButton15 {background-image: url("../images/icon15.png");}
 
-#gridImage {background-image: url( '../images/grid.png' );}
+#gridImage {background-image: url("../images/grid.png");}

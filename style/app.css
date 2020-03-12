@@ -153,13 +153,14 @@ nav ul a:hover {
     margin: 12% auto 0 auto;
 }
 
-.login-container .btn, .signup-container .btn, #dashboard .btn {
+.login-container .btn, .signup-container .btn, #dashboard .btn, #canvas-body .btn {
     background-color: #1fd1f9;
     border: none;
     outline: none;
+    box-shadow: none;
 }
 
-.login-container .btn:hover, .signup-container .btn:hover, #dashboard .btn:hover {
+.login-container .btn:hover, .signup-container .btn:hover, #dashboard .btn:hover, #canvas-body .btn:hover {
     background-color: #b621fe;
     transition: 0.3s ease;
 }
@@ -203,6 +204,8 @@ nav ul a:hover {
 
 #dashboard .btn {
     width: 85%;
+    outline:none;
+    box-shadow:none;
 }
 
 #dashboard li {
@@ -231,7 +234,7 @@ nav ul a:hover {
     border-radius: 5%;
 }
 
-.dashboard-box:hover {
+.dashboard-box:hover, .theme-box:hover, .tile-box:hover {
     bottom: 2px;
     box-shadow: 0 0px 12px #424242;
     transition: 0.3s ease;
@@ -265,3 +268,36 @@ nav ul a:hover {
 #proj6 {background-image: url( '../images/proj6.png' );}
 #proj7 {background-image: url( '../images/proj7.png' );}
 #proj8 {background-image: url( '../images/proj8.png' );}
+
+/* MarketPlace Styles */
+
+.show-box {
+    margin: 10px 15px 0 0;
+}
+
+.tile-box {
+    height: 150px;
+    width: 150px;
+    background-color: white;
+    margin: 10px 15px 0 0;
+    border-radius: 5%;
+}
+
+.theme-box {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    margin: 10px 15px 0 0;
+    border-radius: 5%;
+}
+
+#show1 {background-image: url( '../images/proj1.png' );}
+#show2 {background-image: url( '../images/proj2.png' );}
+#show3 {background-image: url( '../images/proj3.png' );}
+#show4 {background-image: url( '../images/proj4.png' );}
+#show5 {background-image: url( '../images/proj5.png' );}
+#show6 {background-image: url( '../images/proj6.png' );}
+
+#tile1 {background-image: url( '../images/tile1.jpg' );}
+#tile2 {background-image: url( '../images/tile2.jpg' );}
+#tile3 {background-image: url( '../images/tile3.jpg' );}
