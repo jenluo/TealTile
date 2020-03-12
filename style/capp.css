@@ -1,0 +1,77 @@
+button {
+    display: inline-block;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-group-vertical{
+    width: 50px;
+}
+body { 
+    padding-top: 10px;
+    background: grey;
+ }
+.column{
+    background: white;
+}
+.image_button{
+    background-size: 35px 35px;
+    height: 35px;  
+    width: 35px;
+}
+ul {
+    list-style-type:none;
+    padding: 0;
+}
+.grid{
+    height: 51rem;
+    width: 1100px;
+}
+.toolbarBorder{
+    border: 2px solid grey;
+}
+.layBar{
+    background-color: white;
+    width: 23rem;
+    height: 25rem;
+}
+.tileBar{
+    text-align: center;
+    background-color: white;
+    width: 23rem;
+    height: 25.5rem;
+}
+.title{
+    margin-left: -20rem;
+    font-size: x-large;
+    color: gray;
+}
+.layBarTitle{
+    text-align: center;
+    align-self: center;
+    font-size: large;
+    color: gray;
+}
+
+
+#imageButton1 {background-image: url( '../images/icon1.png' );}
+#imageButton2 {background-image: url( '../images/icon2.png' );}
+#imageButton3 {background-image: url( '../images/icon3.png' );}
+#imageButton4 {background-image: url( '../images/icon4.png' );}
+#imageButton5 {background-image: url( '../images/icon5.png' );}
+#imageButton6 {background-image: url( '../images/icon6.png' );}
+#imageButton7 {background-image: url( '../images/icon7.png' );}
+#imageButton8 {background-image: url( '../images/icon8.png' );}
+#imageButton9 {background-image: url( '../images/icon9.png' );}
+#imageButton10 {background-image: url( '../images/icon10.png' );}
+#imageButton11 {background-image: url( '../images/icon11.png' );}
+#imageButton12 {background-image: url( '../images/icon12.png' );}
+#imageButton13 {background-image: url( '../images/icon13.png' );}
+#imageButton14 {background-image: url( '../images/icon14.png' );}
+#imageButton15 {background-image: url( '../images/icon15.png' );}
+#imageButton16 {background-image: url( '../images/icon16.png' );}
+#imageButton17 {background-image: url( '../images/icon17.png' );}
+#imageButton18 {background-image: url( '../images/icon18.png' );}
+#imageButton19 {background-image: url( '../images/icon19.png' );}
+
+#gridImage {background-image: url( '../images/grid.png' );}

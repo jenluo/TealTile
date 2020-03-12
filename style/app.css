@@ -1,0 +1,267 @@
+.img-fit{
+    height: 35rem;
+}
+.icon{
+    height: 4rem;
+}
+
+.list-group {
+    list-style: none;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation Bar Styles */
+
+.logo {
+    height: 2.5rem;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    font-family: sans-serif;
+}
+
+nav ul:first-of-type a {
+    font-size: 18px;
+}
+
+nav ul a:hover {
+    color: #b621fe !important;
+    transition: color 0.2s ease;
+}
+
+.button {
+    border-radius: 8%;
+    text-align: center;
+    width: 90px;
+}
+
+.login-btn {
+    border: 2px solid #1fd1f9;
+    margin-right: 20px;
+}
+
+.login-btn a:hover {
+    color: #b621fe !important;
+}
+
+.login-btn:hover {
+    border: 2px solid #b621fe;
+    transition: border 0.3s ease;
+}
+
+.signup-btn {
+    border: 2px solid #1fd1f9;
+    background-color: #1fd1f9;
+}
+
+.signup-btn a {
+    color: white !important;
+}
+
+.signup-btn a:hover {
+    color: white !important;
+}
+
+.signup-btn:hover {
+    background-color: #b621fe;
+    border: 2px solid #b621fe;
+    transition: 0.3s ease;
+}
+
+/* Landing Page Styles */
+
+.main {
+    width: 100%;
+}
+
+.left-main {
+    color: white;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: -7%;
+}
+
+.sub-main {
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 45px;
+    width: 460px;
+}
+
+.slogan-main {
+    width: 95%;
+    margin: -20px auto 0 auto;
+}
+
+.main-btn {
+    border-radius: 5%;
+    background-color: #1fd1f9;
+    padding: 10px 20px;
+    margin: 20px auto 0 auto;
+}
+
+.main-btn a {
+    color: white;
+}
+
+.main-btn:hover {
+    background-color: #b621fe;
+    box-shadow: 0 0px 12px #7717a7;
+    transition: 0.3s ease;
+}
+
+/* Login Styles */
+
+.login-img {
+    height: 30em;
+}
+
+.login-container {
+    width: 34%;
+    margin: 12% auto 0 auto;
+}
+
+.login-container .btn, .signup-container .btn, #dashboard .btn {
+    background-color: #1fd1f9;
+    border: none;
+    outline: none;
+}
+
+.login-container .btn:hover, .signup-container .btn:hover, #dashboard .btn:hover {
+    background-color: #b621fe;
+    transition: 0.3s ease;
+}
+
+.login-container form {
+    margin-top: 20px;
+}
+
+/* Signup Styles */
+
+.signup-container {
+    margin:-3% auto 0 10%;
+}
+
+.signup-img {
+    height: 31em;
+    margin-left: 10%;
+}
+
+/* Home Styles */
+
+#dashboard-title {
+    width: 100%;
+    padding-left: 30%;
+    margin-bottom: -2.5%;
+}
+
+#dashboard-container {
+    height: 75%;
+}
+
+#dashboard {
+    background-color: rgb(246, 246, 246);
+    border-radius: 5%;
+    padding: 20px !important;
+    text-align: center;
+    width: 20%;
+    height: 62%;
+    margin-left: 1%;
+}
+
+#dashboard .btn {
+    width: 85%;
+}
+
+#dashboard li {
+    margin: 5px;
+}
+
+.username {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#dashboard-content {
+    width: 70%;
+    height: 100%;
+    margin-left: 5%;
+    background-color: rgb(246, 246, 246);
+    border-radius: 2%;
+    padding: 15px 0 15px 20px;
+}
+
+.dashboard-box {
+    height: 215px;
+    width: 177px;
+    background-color: white;
+    margin: 15px 10px;
+    border-radius: 5%;
+}
+
+.dashboard-box:hover {
+    bottom: 2px;
+    box-shadow: 0 0px 12px #424242;
+    transition: 0.3s ease;
+}
+
+.trash-icon {
+    color: rgb(36, 36, 36);
+    margin: 170px 0 0 0;
+}
+
+.setting-icon {
+    color: rgb(36, 36, 36);
+    margin-left: 110px;
+}
+
+.setting-icon:hover {
+    color: white;
+    transition: 0.3s ease;
+}
+
+.trash-icon:hover {
+    color: rgb(255, 45, 45);
+    transition: 0.3s ease;
+}
+
+#proj1 {background-image: url( '../images/proj1.png' );}
+#proj2 {background-image: url( '../images/proj2.png' );}
+#proj3 {background-image: url( '../images/proj3.png' );}
+#proj4 {background-image: url( '../images/proj4.png' );}
+#proj5 {background-image: url( '../images/proj5.png' );}
+#proj6 {background-image: url( '../images/proj6.png' );}
+#proj7 {background-image: url( '../images/proj7.png' );}
+#proj8 {background-image: url( '../images/proj8.png' );}
