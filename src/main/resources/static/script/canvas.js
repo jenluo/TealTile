@@ -9,6 +9,26 @@ var findByName;
 // the only LC-specific thing we have to do
 var containerOne = document.getElementsByClassName('literally')[0];
 
+var imageLoader = document.getElementById('imageLoader');
+imageLoader.addEventListener('change', handleImage, false);
+var canvas = document.getElementById('imageCanvas');
+var ctx = canvas.getContext('2d');
+
+
+function handleImage(e){
+    var reader = new FileReader();
+    reader.onload = function(event){
+        var img = new Image();
+        img.onload = function(){
+            canvas.width = img.width;
+            canvas.height = img.height;
+            ctx.drawImage(img,0,0);
+        }
+        img.src = event.target.result;
+    }
+    reader.readAsDataURL(e.target.files[0]);
+}
+
 var showLC = function() {
     lc = LC.init(containerOne, {
         snapshot: JSON.parse(localStorage.getItem('drawing')),
@@ -52,11 +72,11 @@ var showLC = function() {
             tool: new LC.tools.Pencil(lc)
         },{
             name: 'eraser',
-            el: document.getElementById('tool-eraser'),
+            el: document.getElementById('imageButton6'),
             tool: new LC.tools.Eraser(lc)
         },{
             name: 'text',
-            el: document.getElementById('tool-text'),
+            el: document.getElementById('imageButton11'),
             tool: new LC.tools.Text(lc)
         },{
             name: 'line',
@@ -84,7 +104,7 @@ var showLC = function() {
             tool: new LC.tools.Ellipse(lc)
         },{
             name: 'tool-rectangle',
-            el: document.getElementById('tool-rectangle'),
+            el: document.getElementById('imageButton9'),
             tool: new LC.tools.Rectangle(lc)
         },{
             name: 'tool-polygon',
@@ -92,7 +112,7 @@ var showLC = function() {
             tool: new LC.tools.Polygon(lc)
         },{
             name: 'tool-select',
-            el: document.getElementById('tool-select'),
+            el: document.getElementById('imageButton1'),
             tool: new LC.tools.SelectShape(lc)
         }
     ];
