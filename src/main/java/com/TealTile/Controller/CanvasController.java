@@ -1,11 +1,13 @@
 package com.TealTile.Controller;
 
-import com.TealTile.Entity.Canvas;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.TealTile.Service.CanvasService;
 import org.springframework.stereotype.Controller;
 
 @Controller
 public class CanvasController {
-//@Autowired
-//    private Canvas
+    CanvasService canvasService;
+
+    public void handleMap(String projID) {}
+
+    public void handleUpdateMap(String projID) {}
 }
